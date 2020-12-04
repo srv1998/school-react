@@ -1,0 +1,137 @@
+*{
+    outline: none;
+}
+.body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+   
+}
+:root{
+    --blue:rgb(42, 42, 143);
+}
+.body-aside{
+    background-color: var(--blue);
+    height: 100%;
+    width: 15%;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    color: white;
+    
+}
+
+.body-aside img{
+    height: 100x;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border:5px solid white;
+    
+}
+#aside-table{
+   
+    font-size: 0.9em;
+    line-height: 2.5em;
+    margin-bottom: 20px;
+}
+
+#aside-table tr td{
+    text-align: center;
+    width: 5%;
+    
+}
+#aside-table tr td:nth-child(2n){
+    text-align: left;
+}
+#aside-table tr td select{
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+.main{
+    background-color: rgb(193, 213, 252);
+    width: 84%;
+    height: 100%;
+}
+.main-header{
+    height: 20%;
+    background-color: white;
+    font-size: 3em;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding-top:20px ;
+    padding-left: 20px;
+}
+.main-header span{
+    float: right;
+    margin-right: 10%;
+}
+.main-body{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#add-event{
+    text-align: right;
+    padding-right: 10px;
+}
+#add-event{
+    background-color: var(--blue);
+    
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 15%;
+    float: right;
+    margin-right: 10px;
+}
+
+#main-table{
+  
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+#main-table td{
+   
+  
+    padding-left: 10px;
+}
+input[type="date"]{
+    box-sizing: border-box;
+    padding: 3px;
+    color: rgb(235, 229, 229);
+    border: none;
+}
+
+input[type="text"]{
+    width: 90%;
+    border: none;
+}
+#chart{
+    height: 150px;
+    background-color: white;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+#chart table{
+    width: 100%;
+    font-size: small;
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+#chart table thead{
+    font-weight: bold;
+}
+#photo-cover{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(121, 121, 158);
+    opacity: 0.9;
+    padding: 15px;
+    width: 90%;
+    border-radius: 0 150px 150px;
+}
