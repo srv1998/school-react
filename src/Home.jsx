@@ -45,7 +45,7 @@ const Home=()=>{
                 <button id="aside-button" className="btn btn-primary btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
             </aside>
             <div className="main">
-               <header className="main-header">SHRI JI BABA PUBLIC SCHOOL <span className="text-muted"><i class="fa fa-wrench" aria-hidden="true"></i></span></header>
+               <header className="main-header one-edge-shadow">SHRI JI BABA PUBLIC SCHOOL <span className="text-muted"><i class="fas fa-tools"></i></span></header>
                 <div className="main-body">
                      <p> Dashboard &nbsp; &gt; &nbsp; Events &nbsp; &gt; &nbsp; Events List </p>
                      <div id="add-event">+ Add new Event</div>
