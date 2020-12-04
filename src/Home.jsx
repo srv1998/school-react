@@ -42,12 +42,12 @@ const Home=()=>{
                         <td><select name="teacher" id="teacher"></select></td>
                     </tr>
                 </table>
-                <button id="aside-button" className="btn btn-primary btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+                <button id="aside-button" className="btn btn-primary "><i class="fa fa-search" aria-hidden="true"></i> Search</button>
             </aside>
             <div className="main">
                <header className="main-header one-edge-shadow">SHRI JI BABA PUBLIC SCHOOL <span className="text-muted"><i class="fas fa-tools"></i></span></header>
                 <div className="main-body">
-                     <p> Dashboard &nbsp; &gt; &nbsp; Events &nbsp; &gt; &nbsp; Events List </p>
+                     <p> Dashboard &nbsp; <strong>&gt;</strong> &nbsp; Events &nbsp; <strong>&gt;</strong> &nbsp; Events List </p>
                      <div id="add-event">+ Add new Event</div>
                      <h2>Event List</h2>
                      <table id="main-table">
@@ -67,10 +67,10 @@ const Home=()=>{
                                 </tr>
                              <tr>
                                  <td>Events</td>
-                                 <td >
+                                 <td id="radio-input">
                                     
                                      <input type="radio" name="events"/>
-                                     <label >  &nbsp; Upcoming</label>
+                                     <label>  &nbsp; Upcoming</label>
                                      &nbsp;
                                      &nbsp;
                                      &nbsp;
@@ -99,8 +99,8 @@ const Home=()=>{
                              <tr>
                                  <td>Search Text</td>
                                  <td><input type="text"/></td>
-                                 <td><button className="table-button btn btn-success btn-block">Search</button></td>
-                                 <td><button className="table-button btn btn-secondary btn-block">Reset</button></td>
+                                 <td><button className="table-button btn  btn-block">Search</button></td>
+                                 <td><button className="table-button btn  btn-block">Reset</button></td>
                              </tr>
                              <tr>
                                  <td> </td>

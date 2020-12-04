@@ -88,6 +88,7 @@
     width: 15%;
     float: right;
     margin-right: 10px;
+    margin-top: -40px;
 }
 
 #main-table{
@@ -95,10 +96,11 @@
     width: 90%;
     border-collapse: separate;
     border-spacing: 0 1em;
+   
 }
 #main-table td{
    
-  
+   vertical-align: center;
     padding-left: 10px;
 }
 input[type="date"]{
@@ -142,4 +144,17 @@ input[type="text"]{
     -webkit-box-shadow: 0 8px 6px -6px black;
        -moz-box-shadow: 0 8px 6px -6px black;
             box-shadow: 0 8px 6px -6px black;
+}
+.table-button{
+    background-color: var(--blue);
+    color: white;
+}
+
+#radio-input label{
+   
+    margin-bottom: -5px;
+}
+#aside-button{
+    height: 8%;
+    width: 50%;
 }
